@@ -1,0 +1,23 @@
+﻿Build started 2/23/2015 9:53:04 AM.
+     1>Project "C:\Users\BT31035.CITYINS\Desktop\pong\pong\pong.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BT31035.CITYINS\Desktop\pong\Debug\pong.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BT31035.CITYINS\Desktop\pong\Debug\pong.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>main.obj : error LNK2028: unresolved token (0A000198) "public: __thiscall sf::String::~String(void)" (??1String@sf@@$$FQAE@XZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2028: unresolved token (0A0004D8) "public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@$$FQAE@III@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2028: unresolved token (0A0004D9) "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@$$FQAE@PBDABVlocale@std@@@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2028: unresolved token (0A0004DA) "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@$$FQAEXXZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2028: unresolved token (0A0004DB) "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@$$FQAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2028: unresolved token (0A0004DC) "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@$$FUAE@XZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@$$FQAE@PBDABVlocale@std@@@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@$$FQAE@III@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@$$FQAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::String::~String(void)" (??1String@sf@@$$FQAE@XZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@$$FUAE@XZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@$$FQAEXXZ) referenced in function "int __cdecl main(void)" (?main@@$$HYAHXZ)
+     1>C:\Users\BT31035.CITYINS\Desktop\pong\Debug\pong.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "C:\Users\BT31035.CITYINS\Desktop\pong\pong\pong.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19
